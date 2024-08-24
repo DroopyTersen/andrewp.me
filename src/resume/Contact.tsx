@@ -5,7 +5,7 @@ export function Contact({ className }: { className?: string }) {
     <div className={cn("flex flex-col items-end", className)}>
       <div className="flex justify-between gap-4">
         <div className="text-sm text-gray-700 flex items-center">
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="inline-block w-3 h-3 mr-1 text-gray-400 mb-[2px]"
             viewBox="0 0 20 20"
@@ -16,7 +16,7 @@ export function Contact({ className }: { className?: string }) {
               d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
               clipRule="evenodd"
             />
-          </svg>
+          </svg> */}
           Boise, ID
         </div>
         <a
