@@ -1,0 +1,25 @@
+html {
+  font-size: 11pt;
+}
+
+@media print {
+  html {
+    font-size: 11pt;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .shadow-md {
+    box-shadow: none !important;
+  }
+}
+
+@page {
+  size: letter;
+  margin: 0;
+}
