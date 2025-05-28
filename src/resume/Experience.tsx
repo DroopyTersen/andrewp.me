@@ -5,7 +5,17 @@ export function ProfessionalExperience({ className }: { className?: string }) {
   return (
     <div className={cn("", className)}>
       <SectionTitle>Notable Experience</SectionTitle>
-      <div className="space-y-6">
+      <div className="space-y-3">
+        <ExperienceItem
+          role="Lead AI Architect"
+          project="MuleSoft to .NET Migration Platform"
+          year="2025"
+          achievements={[
+            "Architected and built an AI-powered migration platform that achieved 5x productivity gains, reducing an endpoint migration from days to hours, across 600+ MuleSoft endpoints.",
+            "Built a DAG-driven, multi-agent system for code analysis, spec lift-and-shift, and standards-compliant C# output.",
+            "Collaborated with client stakeholders to define migration strategy and and measure productivity gains. Led team of developers in executing migrations using the platform.",
+          ]}
+        />
         <ExperienceItem
           role="Solution Architect & Lead Developer"
           project="Conversational AI Offering"
@@ -13,8 +23,8 @@ export function ProfessionalExperience({ className }: { className?: string }) {
           year="2023"
           achievements={[
             'Conceptualized and developed a custom "Chat with Your Company Data" solution, created IP to offer cost-effective, tailored AI solutions.',
-            "Engineered flexible abstractions around semantic search and tool utilization, setting the stage for scalable client deployments.",
-            "Led five successful client deliveries and a subsequent promotion to featured solution offering for our consultancy.",
+            "Engineered flexible abstractions around semantic search, tool utilization, and agents",
+            "Led 8 successful client deliveries and a subsequent promotion to featured solution offering for our consultancy.",
           ]}
         />
         <ExperienceItem
@@ -25,7 +35,7 @@ export function ProfessionalExperience({ className }: { className?: string }) {
           achievements={[
             "Devised the AI workshop, pitching and building the entire program on personal initiative, which became a key company training resource.",
             "Developed and delivered the curriculum, training three internal cohorts.",
-            "Expanded the initiative from an internal program to a revenue generating offering, with two clients scheduled this fall.",
+            "Expanded the initiative from an internal program to a revenue generating offering.",
           ]}
         />
         <ExperienceItem
@@ -34,7 +44,7 @@ export function ProfessionalExperience({ className }: { className?: string }) {
           year="2024"
           achievements={[
             "Launched an app to provide AI powered earnings call transcripts, summaries and insights.",
-            "Implemented a sophisticated RAG pipeline with streaming UI and real-time updates using Server-Sent Events.",
+            "Implemented agentic workflow with streaming UI and real-time updates using Server-Sent Events.",
           ]}
         />
         <ExperienceItem
@@ -47,7 +57,7 @@ export function ProfessionalExperience({ className }: { className?: string }) {
             "Collaborated with numerous enterprise teams to assess needs and align the platform with corporate best practices and architecture standards.",
           ]}
         />
-        <ExperienceItem
+        {/* <ExperienceItem
           role="Tech Lead"
           project="LTL Reservation System"
           company="National Trucking Company"
@@ -56,7 +66,7 @@ export function ProfessionalExperience({ className }: { className?: string }) {
             "Directed the development of a web application allowing users to reserve space on partially filled semi-trailers.",
             "Led a team of developers and coordinated with other teams to integrate APIs, ensuring seamless functionality.",
           ]}
-        />
+        /> */}
       </div>
     </div>
   );

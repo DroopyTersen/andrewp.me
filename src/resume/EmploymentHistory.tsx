@@ -7,7 +7,7 @@ export function EmploymentHistory({ className }: { className?: string }) {
       <SectionTitle className="mb-2">Employment History</SectionTitle>
       <div className="space-y-4">
         <EmploymentItem
-          company="Core BTS"
+          company="NRI North America"
           dateRange="2012 - Present"
           jobTitle="Principal Architect"
           description="Software Consultant delivering full-stack web applications for clients spanning many industries and sizes."

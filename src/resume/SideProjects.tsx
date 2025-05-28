@@ -10,12 +10,12 @@ export function SideProjects({ className }: { className?: string }) {
       </p> */}
       <div className="space-y-[9px]">
         <ProjectItem
-          name="Wanderlog"
-          description="Travel diary for my family and friends"
+          name="BetterSpotify"
+          description="Uses AI to create Spotify playlists based on your mood and listening history."
         />
         <ProjectItem
-          name="PromptWriter"
-          description="Takes simple prompts and generates a prompt engineer ed prompt"
+          name="Wanderlog"
+          description="Travel diary for my family and friends"
         />
         <ProjectItem
           name="CodeSnippets"

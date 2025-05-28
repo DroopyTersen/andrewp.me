@@ -12,6 +12,7 @@ const skills = [
   "ASP.NET",
   "Azure OpenAI",
   "Anthropic",
+  "Agents",
   "RAG",
   "Prompt Engineering",
   "Postgres",
