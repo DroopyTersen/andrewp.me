@@ -6,11 +6,13 @@ const skills = [
   "CSS",
   "React",
   "Remix",
-  "Next",
+  "Next.js",
   "Express",
   "Node.js",
   "ASP.NET",
   "Azure OpenAI",
+  "Generative AI",
+  "LLMs",
   "Anthropic",
   "Agents",
   "RAG",
@@ -28,12 +30,16 @@ const skills = [
   "AWS",
   "GCP",
   "Fly.io",
+  "OAuth",
+  "Azure AD",
+  "Vite",
+  "Tailwind",
 ];
 export function Skills() {
   return (
     <div>
       <SectionTitle>Skills</SectionTitle>
-      <div className="flex flex-wrap gap-x-3 gap-y-1">
+      <div className="flex flex-wrap gap-x-2 gap-y-[2px]">
         {skills.map((skill) => (
           <span key={skill} className="text-gray-900 text-xs">
             {skill}

@@ -13,7 +13,7 @@ export function ProfessionalExperience({ className }: { className?: string }) {
           achievements={[
             "Architected and built an AI-powered migration platform that achieved 5x productivity gains, reducing an endpoint migration from days to hours, across 600+ MuleSoft endpoints.",
             "Built a DAG-driven, multi-agent system for code analysis, spec lift-and-shift, and standards-compliant C# output.",
-            "Collaborated with client stakeholders to define migration strategy and and measure productivity gains. Led team of developers in executing migrations using the platform.",
+            "Collaborated with client stakeholders to define migration strategy and measure productivity gains. Led team of developers in executing migrations using the platform.",
           ]}
         />
         <ExperienceItem
